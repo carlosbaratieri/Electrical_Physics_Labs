@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2a2a3f" stop-opacity="0.9">
+        <animate attributeName="offset" from="-0.2" to="1.2" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1f1f35" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1a1a2f" stop-opacity="0.9">
+        <animate attributeName="offset" from="0.8" to="2.2" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="pythonGrad">
+      <stop offset="0%" stop-color="#306998"/>
+      <stop offset="100%" stop-color="#FFD43B"/>
+    </linearGradient>
+    <linearGradient id="reactGrad">
+      <stop offset="0%" stop-color="#61DAFB"/>
+      <stop offset="100%" stop-color="#61DAFB"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="800" height="120" rx="10" fill="url(#cardGrad)"/>
+    <text x="20" y="30" fill="#ffffff"
+          font-family="Monaco, monospace"
+          font-size="16" font-weight="bold">
+      Análise De Circuitos Em Corrente Contínua (DC Electrical Circuit Analysis)
+    </text>
+    <path d="M20 40 L780 40"
+          stroke="#ffffff"
+          stroke-width="0.5"
+          stroke-opacity="0.3"/>
+    <text x="20" y="65" fill="#ffffff"
+          font-family="Monaco, monospace"
+          font-size="12" opacity="0.8">
+      Mostrar um pouco da animação em Python e relatórios em latex (Show some Python animations and LaTeX reports)
+    </text>
+    <g transform="translate(20, 90)">
+      <g>
+        <rect width="60" height="20" rx="10" fill="url(#pythonGrad)"/>
+        <text x="30" y="14" fill="#000"
+              font-family="Monaco, monospace"
+              font-size="10" text-anchor="middle"
+              dominant-baseline="middle">Python</text>
+      </g>
+      <g transform="translate(70, 0)">
+        <rect width="70" height="20" rx="10" fill="url(#reactGrad)"/>
+        <text x="35" y="14" fill="#000"
+              font-family="Monaco, monospace"
+              font-size="10" text-anchor="middle"
+              dominant-baseline="middle">ManimCE</text>
+      </g>
+      <g transform="translate(150, 0)">
+        <rect width="60" height="20" rx="10" fill="url(#reactGrad)"/>
+        <text x="30" y="14" fill="#000"
+              font-family="Monaco, monospace"
+              font-size="10" text-anchor="middle"
+              dominant-baseline="middle">Latex</text>
+      </g>
+    </g>
+  </g>
+</svg>
