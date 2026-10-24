@@ -5,9 +5,6 @@
   />
 </p>
 
-
----
-
 # **`Relatórios de Laboratório e Projetos de Engenharia (Laboratory Reports and Engineering Projects)`**
 
 >[!IMPORTANT]
