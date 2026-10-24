@@ -1,2 +1,2 @@
 *.c linguist-detectable=true
-*.R linguist-detectable=true
+*.m linguist-detectable=true
